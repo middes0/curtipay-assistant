@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.middes0.curtipayassistant'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.middes0.curtipayassistant'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
